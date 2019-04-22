@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import './App.scss';
 
 import Navigation from '../Navigation';
 import LandingPage from '../Landing';
@@ -16,7 +17,7 @@ import { withAuthentication } from '../Session';
 const App = () => (
 
     <Router>
-        <div>
+        <div className="app">
             <Navigation />
 
             <hr />
