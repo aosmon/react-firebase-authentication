@@ -1,7 +1,9 @@
+$primary-color: #289dcc;
+$link-color: #fff;
+$hover-color: #000;
+
 .navigation {
-  background-color: #80d9fc;
-  $primary-color: #222;
-  $hover-color: #fff;
+  background-color: $primary-color;
 
   ul {
     align-items: center;
@@ -16,11 +18,11 @@
     }
 
     a {
-      color: $primary-color;
+      color: $link-color;
       text-decoration: none;
 
       &:visited {
-        color: $primary-color;
+        color: $link-color;
       }
 
       &:hover {
