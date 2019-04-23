@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import styles from './Admin.module.scss';
+
 import { withFirebase } from '../Firebase';
 
 class AdminPage extends Component {
@@ -40,7 +42,7 @@ class AdminPage extends Component {
         const { users, loading } = this.state;
 
         return (
-            <div>
+            <div className={styles['admin-page']}>
                 <h1>Admin</h1>
 
                 {loading && <div>Loading...</div>}
