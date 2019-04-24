@@ -1,0 +1,15 @@
+.admin-page {
+  ul {
+    list-style: none;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px;
+    }
+
+    span {
+      padding: 0 10px;
+    }
+  }
+}
